@@ -1,0 +1,23 @@
+.itemContainer {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 24px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.titleContainer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
